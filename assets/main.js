@@ -32,7 +32,7 @@
       '<div class="jnav__shell">' +
         '<div class="jnav__top">' +
           '<a class="brand" href="index.html"><span class="brand__mark">' + logoSvg + '</span>' +
-            '<span class="brand__name"><b>AJRI</b><span>American Journal of Research &amp; Innovation</span></span></a>' +
+            '<span class="brand__name"><b>AJRI</b></span></a>' +
           '<div class="jnav__meta">' +
             '<button class="jnav__burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>' +
           "</div>" +
