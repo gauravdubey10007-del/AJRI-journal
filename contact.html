@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — AJRI</title>
+<meta name="description" content="Contact the American Journal of Research & Innovation (AJRI): manuscript submissions, editorial inquiries, and reviewer applications." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/styles.css?v=10" />
+</head>
+<body data-fixed-bg="assets/heroes/contact.jpg">
+<div id="site-nav"></div>
+
+<section class="page-head page-head--photo" style="background-image:url('assets/heroes/contact.jpg')">
+  <div class="container">
+    <div class="crumbs"><a href="index.html">Home</a> · Contact</div>
+    <h1>Contact the journal</h1>
+    <p class="lead">We welcome submissions, editorial enquiries, reviewer applications, and collaboration proposals from the global scholarly community.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="auth-wrap auth-wrap--contact" style="align-items:start">
+      <!-- info -->
+      <div class="reveal" style="display:grid;gap:16px">
+        <div class="info-card"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z"/><path d="m4 6 8 6 8-6"/></svg></i><div><b>Manuscript Submissions</b><br><a href="mailto:submissions@ajri.org">submissions@ajri.org</a></div></div>
+        <div class="info-card"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z"/><path d="m4 6 8 6 8-6"/></svg></i><div><b>Editorial Inquiries &amp; Pre-Submission</b><br><a href="mailto:editor@ajri.org">editor@ajri.org</a></div></div>
+        <div class="info-card"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/></svg></i><div><b>Reviewer Applications</b><br><a href="mailto:editor@ajri.org">editor@ajri.org</a> — subject line "Reviewer Application"</div></div>
+        <div class="info-card"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21h18M5 21V8l7-5 7 5v13"/></svg></i><div><b>Publisher</b><br><span>Lifeline Emed Companies LLC — <a href="mailto:info@lifelineemed.com">info@lifelineemed.com</a></span></div></div>
+        <div class="info-card"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></i><div><b>Global Offices</b><br><span>New York · New Jersey · California · Texas · India · Thailand · Portugal</span></div></div>
+      </div>
+
+      <!-- form -->
+      <form class="form reveal" data-demo>
+        <h2 class="h-md" style="font-size:22px">Send us a message</h2>
+        <p class="note" style="margin-top:-4px">The editorial office typically responds within two business days.</p>
+        <div class="field"><label for="name">Full Name</label><input id="name" name="name" type="text" placeholder="Your name" required /></div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com" required /></div>
+        <div class="field"><label for="topic">Topic</label>
+          <select id="topic" name="topic" required>
+            <option value="">Select a topic…</option>
+            <option>Manuscript submission</option>
+            <option>Status of my submission</option>
+            <option>Pre-submission enquiry</option>
+            <option>Reviewer application</option>
+            <option>Editorial board interest</option>
+            <option>Publication ethics concern</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="field"><label for="message">Message</label><textarea id="message" name="message" placeholder="Write your message…" required></textarea></div>
+        <button class="btn btn--primary" type="submit">Send Message</button>
+        <p class="note" data-msg style="display:none;color:#1d8a4f;font-weight:600">✓ Thank you — your message has been recorded. We'll be in touch.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<script src="assets/main.js?v=4"></script>
+</body>
+</html>
