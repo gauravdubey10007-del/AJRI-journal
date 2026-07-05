@@ -33,14 +33,12 @@
         '<div class="jnav__top">' +
           '<a class="brand" href="index.html"><span class="brand__mark">' + logoSvg + '</span>' +
             '<span class="brand__name"><b>AJRI</b></span></a>' +
-          '<div class="jnav__meta">' +
-            '<button class="jnav__burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>' +
-          "</div>" +
+          '<ul class="jnav__links">' +
+            NAV_LINKS.map(function (l) { return "<li>" + linkHtml(l) + "</li>"; }).join("") +
+            '<li class="submit-inline"><a href="submit-manuscript.html">Submit Manuscript</a></li>' +
+          "</ul>" +
+          '<button class="jnav__burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>' +
         "</div>" +
-        '<div class="jnav__bar"><ul class="jnav__links">' +
-          NAV_LINKS.map(function (l) { return "<li>" + linkHtml(l) + "</li>"; }).join("") +
-          '<li class="submit-inline"><a href="submit-manuscript.html">Submit Manuscript</a></li>' +
-        "</ul></div>" +
       "</div>" +
     "</header>" +
     '<div class="jnav__drawer" id="drawer"><ul>' +
