@@ -101,8 +101,7 @@ img{max-width:100%;display:block}
 .jnav__links a::after{content:"";position:absolute;left:0;bottom:0;height:2.5px;width:0;background:var(--gold);transition:width .25s}
 .jnav__links a:hover,.jnav__links a.active{color:var(--navy)}
 .jnav__links a.active::after,.jnav__links a:hover::after{width:100%}
-.jnav__links .submit-inline{margin-left:auto;position:sticky;right:0;padding-left:14px;
-  background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.97) 34%)}
+.jnav__links .submit-inline{margin-left:auto;position:sticky;right:0;padding-left:14px;background:none}
 .jnav__links .submit-inline a{color:#2a1d05;font-weight:700;background:linear-gradient(135deg,var(--gold-soft),var(--gold));
   border-radius:999px;padding:8px 13px;margin:6px 0}
 .jnav__links .submit-inline a::after{display:none}
@@ -502,7 +501,6 @@ body.has-hero .jnav:not(.scrolled) .jnav__links a{color:rgba(255,255,255,.82)}
 body.has-hero .jnav:not(.scrolled) .jnav__links a:hover,
 body.has-hero .jnav:not(.scrolled) .jnav__links a.active{color:#fff}
 body.has-hero .jnav:not(.scrolled) .jnav__links .submit-inline a{color:#2a1d05}
-body.has-hero .jnav:not(.scrolled) .submit-inline{background:none}
 body.has-hero .jnav:not(.scrolled) .jnav__burger span{background:#fff}
 body.has-hero .jnav.scrolled{background:transparent;backdrop-filter:none;
   border-bottom-color:transparent;box-shadow:none}
