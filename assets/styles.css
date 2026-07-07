@@ -86,6 +86,10 @@ img{max-width:100%;display:block}
 .jnav.scrolled .jnav__links a:hover,
 .jnav.scrolled .jnav__links a.active{color:#fff}
 .jnav.scrolled .jnav__burger span{background:#fff}
+/* gold Submit pill keeps dark text in every state */
+.jnav.scrolled .jnav__links .submit-inline a,
+.jnav.scrolled .jnav__links .submit-inline a:hover,
+body.has-hero .jnav:not(.scrolled) .jnav__links .submit-inline a:hover{color:#2a1d05}
 .jnav.scrolled .jnav__top{padding-left:22px;padding-right:22px}
 .jnav__top{max-width:var(--maxw);margin:0 auto;display:flex;align-items:center;gap:clamp(12px,1.4vw,18px);
   padding:9px clamp(16px,3vw,32px);transition:padding .3s}
@@ -105,6 +109,7 @@ img{max-width:100%;display:block}
   display:flex;align-items:center;gap:clamp(6px,0.8vw,10px);list-style:none;overflow-x:auto;scrollbar-width:none}
 .jnav__links::-webkit-scrollbar{display:none}
 .jnav__links li{flex:none}
+.jnav__links li:first-child{margin-left:auto}
 .jnav__links a{display:block;font-size:12px;font-weight:500;color:var(--muted);position:relative;
   padding:11px 2px;transition:color .2s;white-space:nowrap}
 .jnav__links a::after{content:"";position:absolute;left:0;bottom:0;height:2.5px;width:0;background:var(--gold);transition:width .25s}
@@ -283,6 +288,9 @@ h1,h2,h3{color:var(--navy);letter-spacing:-.4px;line-height:1.12}
   display:flex;flex-direction:column;justify-content:space-between;padding:18px;color:#fff}
 .issue-cover .jt{font-size:15px;font-weight:800;line-height:1.25;letter-spacing:.2px}
 .issue-cover .jt span{display:block;font-size:9.5px;font-weight:600;letter-spacing:1.6px;color:var(--gold-soft);margin-top:6px;text-transform:uppercase}
+.issue-cover .feat{position:relative;z-index:1;font-size:13.5px;font-weight:700;color:#fff;line-height:1.45}
+.issue-cover .feat span{display:block;font-size:9px;font-weight:600;letter-spacing:1.8px;text-transform:uppercase;
+  color:var(--gold-soft);margin-bottom:7px}
 .issue-cover .vol{font-size:12px;color:rgba(255,255,255,.85);border-top:1px solid rgba(255,255,255,.2);padding-top:12px}
 .issue-cover::after{content:"";position:absolute;inset:0;background:
   radial-gradient(90% 60% at 100% 0%,rgba(227,184,90,.25),transparent 55%)}

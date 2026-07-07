@@ -5,7 +5,6 @@
   var NAV_LINKS = [
     { label: "Home", href: "index.html" },
     { label: "About AJRI", href: "about.html" },
-    { label: "Editorial Board", href: "editorial-board.html" },
     { label: "Aims & Scope", href: "aims-scope.html" },
     { label: "Peer Review", href: "peer-review.html" },
     { label: "Publication Ethics", href: "publication-ethics.html" },
@@ -56,13 +55,11 @@
           "<p>An international, multidisciplinary, peer-reviewed, open-access journal published by Lifeline Emed Companies LLC.</p>" +
           '<div class="contacts">' +
             '<a href="mailto:submissions@ajri.org">submissions@ajri.org</a>' +
-            '<a href="mailto:editor@ajri.org">editor@ajri.org</a>' +
             '<span>910 Bergen Avenue, Suite 209,<br>Jersey City, NJ 07306</span>' +
           "</div>" +
         "</div>" +
         '<div><h4>Journal</h4><ul>' +
           '<li><a href="about.html">About AJRI</a></li>' +
-          '<li><a href="editorial-board.html">Editorial Board</a></li>' +
           '<li><a href="aims-scope.html">Aims &amp; Scope</a></li>' +
           '<li><a href="current-issue.html">Current Issue</a></li>' +
           '<li><a href="archives.html">Archives</a></li>' +
