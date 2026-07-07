@@ -356,6 +356,9 @@ h1,h2,h3{color:var(--navy);letter-spacing:-.4px;line-height:1.12}
 .paper ol,.paper ul{margin:12px 0 0 22px;display:grid;gap:8px;color:#3d4c64;font-size:14.5px;line-height:1.6}
 .paper .ab-label{font-weight:700;color:var(--navy)}
 .paper .rule{border:0;border-top:1px solid var(--surface-2);margin:34px 0}
+.paper figure{margin:24px 0}
+.paper figure img{width:100%;border:1px solid var(--border);border-radius:12px;background:#fff}
+.paper figcaption{font-size:13px;color:#5b6b82;margin-top:9px;text-align:center}
 .article-head-meta{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:rgba(255,255,255,.85);margin-top:14px}
 .article-head-meta b{color:#fff}
 
