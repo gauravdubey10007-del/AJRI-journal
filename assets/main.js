@@ -24,7 +24,7 @@
   }
 
   var logoSvg =
-    '<svg viewBox="0 0 24 24" fill="none"><path d="M12 5.5C10.4 4.2 8.2 3.5 5.5 3.5c-.8 0-1.5.06-2 .14V18.6c.5-.08 1.2-.14 2-.14 2.7 0 4.9.7 6.5 2 1.6-1.3 3.8-2 6.5-2 .8 0 1.5.06 2 .14V3.64c-.5-.08-1.2-.14-2-.14-2.7 0-4.9.7-6.5 2Z" stroke="#e3b85a" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 5.5v15" stroke="#e3b85a" stroke-width="1.7"/></svg>';
+    '<img src="assets/logo.png" alt="AJRI logo" loading="eager" />';
 
   /* ---------- MASTHEAD ---------- */
   var navHtml =
