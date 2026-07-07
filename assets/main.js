@@ -57,6 +57,7 @@
           '<div class="contacts">' +
             '<a href="mailto:submissions@ajri.org">submissions@ajri.org</a>' +
             '<a href="mailto:editor@ajri.org">editor@ajri.org</a>' +
+            '<span>910 Bergen Avenue, Suite 209,<br>Jersey City, NJ 07306</span>' +
           "</div>" +
         "</div>" +
         '<div><h4>Journal</h4><ul>' +

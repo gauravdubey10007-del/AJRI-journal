@@ -346,6 +346,19 @@ h1,h2,h3{color:var(--navy);letter-spacing:-.4px;line-height:1.12}
 .tl-item .when{font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
 .tl-item p{color:var(--muted);font-size:14.5px;margin-top:6px;max-width:64ch}
 
+/* article full-text "paper" — stays light for readability over the photo bg */
+.paper{background:#fff;border:1px solid var(--border);border-radius:22px;
+  padding:clamp(26px,5vw,60px);box-shadow:var(--shadow);max-width:940px;margin:0 auto}
+.paper h2{font-size:23px;margin:36px 0 12px;color:var(--navy)}
+.paper h2:first-child{margin-top:0}
+.paper h3{font-size:17.5px;margin:24px 0 8px;color:var(--navy)}
+.paper p{color:#3d4c64;font-size:15.5px;line-height:1.75;margin:10px 0}
+.paper ol,.paper ul{margin:12px 0 0 22px;display:grid;gap:8px;color:#3d4c64;font-size:14.5px;line-height:1.6}
+.paper .ab-label{font-weight:700;color:var(--navy)}
+.paper .rule{border:0;border-top:1px solid var(--surface-2);margin:34px 0}
+.article-head-meta{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:rgba(255,255,255,.85);margin-top:14px}
+.article-head-meta b{color:#fff}
+
 /* ---------- FOOTER ---------- */
 .footer{background:#0b2240;color:#cdd8e8}
 .footer__top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;padding:clamp(48px,6vw,72px) 0 40px}
@@ -355,6 +368,7 @@ h1,h2,h3{color:var(--navy);letter-spacing:-.4px;line-height:1.12}
 .footer__brand .contacts{margin-top:18px;display:grid;gap:8px}
 .footer__brand .contacts a{color:#cdd8e8;font-size:14px}
 .footer__brand .contacts a:hover{color:#fff}
+.footer__brand .contacts span{color:#9fb1c9;font-size:14px;line-height:1.55}
 .footer h4{color:#fff;font-size:13px;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:16px}
 .footer ul{list-style:none;display:grid;gap:10px}
 .footer ul a{color:#9fb1c9;font-size:14px;transition:color .2s}
