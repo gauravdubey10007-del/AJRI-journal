@@ -429,7 +429,9 @@ h1,h2,h3{color:var(--navy);letter-spacing:-.4px;line-height:1.12}
 /* sections go transparent so the fixed image shows through everywhere */
 body.has-hero section{background:transparent}
 body.has-hero .section--surface{background:transparent}
-body.has-hero .page-head--photo{background-image:none !important;background-color:transparent;min-height:240px}
+body.has-hero .page-head--photo{background-image:none !important;background-color:transparent;
+  min-height:clamp(300px,44vh,520px);display:flex;align-items:center}
+body.has-hero .page-head--photo>.container{padding-bottom:24px}
 body.has-hero .page-head--photo::before{background:none}
 
 /* loose headings & text over the photo */
