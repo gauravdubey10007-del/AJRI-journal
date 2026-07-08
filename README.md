@@ -9,6 +9,7 @@ Completely independent of the main Lifeline Emed site — no build step, no depe
 |---|---|
 | Home | `index.html` |
 | About AJRI | `about.html` |
+| Editorial Board | `editorial-board.html` |
 | Aims & Scope | `aims-scope.html` |
 | Peer Review | `peer-review.html` |
 | Publication Ethics | `publication-ethics.html` |

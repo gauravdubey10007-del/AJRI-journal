@@ -227,8 +227,6 @@ h1,h2,h3{color:var(--navy);letter-spacing:-.4px;line-height:1.12}
   radial-gradient(70% 90% at 90% -10%,#e8f0fb,transparent 60%),
   linear-gradient(180deg,#fbfdff,#f3f7fc);
   border-bottom:1px solid var(--border);padding:clamp(48px,7vw,84px) 0}
-.page-head .crumbs{font-size:13px;color:var(--muted);margin-bottom:14px}
-.page-head .crumbs a:hover{color:var(--navy)}
 .page-head h1{font-size:clamp(30px,4.6vw,48px);font-weight:800}
 .page-head p{margin-top:14px}
 .page-head--photo{position:relative;overflow:hidden;border-bottom:none;color:#fff;min-height:280px;
@@ -239,9 +237,6 @@ h1,h2,h3{color:var(--navy);letter-spacing:-.4px;line-height:1.12}
 .page-head--photo>.container{position:relative;z-index:1;width:100%}
 .page-head--photo h1{color:#fff}
 .page-head--photo .lead,.page-head--photo p{color:rgba(255,255,255,.86)}
-.page-head--photo .crumbs{color:rgba(255,255,255,.72)}
-.page-head--photo .crumbs a{color:rgba(255,255,255,.88)}
-.page-head--photo .crumbs a:hover{color:#fff}
 .page-head--photo .eyebrow{color:var(--gold-soft)}
 .page-head--photo .meta-chips .chip{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.26);color:#fff}
 .page-head--photo .meta-chips .chip.live{background:rgba(34,160,90,.28);border-color:rgba(34,160,90,.45);color:#daffe9}
